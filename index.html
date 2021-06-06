@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/32b83c6d5e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mensagem Whatsapp</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <a href="index.html" id="camera"><i class="fas fa-camera"></i></a>
+            <section id="menu">
+                <a href="#">Home</a>
+                <a href="#">Fotos</a>
+                <a href="index.html">Contato</a>
+            </section>
+        </nav>
+        <div id="container">
+            
+            <form>
+                <h1 id="tituloForm">Contato</h1>
+                <div class="campo">
+                    <input  type="text" placeholder="Nome" >
+                    <div class="underline"></div>
+                </div>
+                <div class="campo">
+                    <input type="tel" name="Telefone" id="telefone" placeholder="Telefone EX: 00 0000-0000">
+                    <div class="underline"></div>
+                </div>
+
+                <label>Mensagem</label>
+                <textarea id="Mensagem" cols="30" rows="10"></textarea>
+
+                <button id="btn" type='button'>
+                    <a id="zap" href="" onclick='prepararMensagem()' target="_blank" > Enviar Mensagem  </a>
+                </button>
+            </form>
+            <section id="secImg">
+                <img src="/Humaaans - Wireframe.png" alt="">
+            </section>
+        </div>
+        <footer>
+            <h6>@Copyright</h6>
+        </footer>
+    </main>
+    <script src="index.js"></script>
+    
+    
+    
+    
+    <!-- <div id="container">
+        <p id=principal>Página de Cadastro</p>
+
+        <form>
+            <label >Telefone:</label>
+            <input id="campoTelefone"type=tel/>
+            
+            <label >Mensagem:</label>
+            <input id="campoMensagem"type='text'/>
+        </form>
+        <button id="btn" type='button'>
+            <a id="zap" href="" onclick='prepararMensagem()' target="_blank" > Preparar Mensagem </a>
+        </button>
+    </div>
+  <script src="index.js"></script>
+
+     -->
+
+
+</body>
+</html>
